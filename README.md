@@ -18,3 +18,6 @@ run the local seaweedfs stack (master, volume, filer, s3, webdav):
 stop the stack:
 
 `docker compose -f docker-compose.yml down`
+
+
+better instructions coming soon.
