@@ -9,7 +9,7 @@ set the version in `.env`:
 
 build the image locally:
 
-`docker build --build-arg SEAWEEDFS_VERSION=4.23 -t bah-seaweedfs:4.23 .`
+`docker build --build-arg SEAWEEDFS_VERSION=4.23 -t seaweedfs:4.23 .`
 
 run the local seaweedfs stack (master, volume, filer, s3, webdav):
 

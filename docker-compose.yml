@@ -1,6 +1,6 @@
 # reusable block so we dont have to repeat the same stuff for each service
 x-seaweedfs-common: &seaweedfs-common
-  image: bah-seaweedfs:${SEAWEEDFS_VERSION}
+  image: seaweedfs:${SEAWEEDFS_VERSION}
   build:
     context: .
     args:
